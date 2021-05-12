@@ -1,0 +1,56 @@
+* {
+    -webkit-user-select:none;
+}
+ol, ul {
+    list-style:none;
+  }
+
+
+.board0{
+    /* display: block; */
+    width: 400px;
+    height: 380px;
+    margin:20px auto;
+}
+
+li{
+    width: 220px;
+    height: 15px;
+}
+
+.square{
+    float: left;
+    width: 12px;
+    height: 12px;
+    padding: 2px;
+    border:1px solid #879372;
+    opacity:0.5;
+    margin:2px;
+}
+
+/* after用于添加新元素，内部小方块 */
+.square::after{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    opacity:0.5;
+    background-color: #879372;
+}
+/* 有颜色的方块类 */
+.squareClick{
+    float: left;
+    width: 12px;
+    height: 12px;
+    padding: 2px;
+    border:1px solid #000;
+    margin:2px;
+}
+
+.squareClick::after{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+}

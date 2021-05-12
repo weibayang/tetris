@@ -1,0 +1,17 @@
+.rotateKey {
+    width: 400px;
+    height: 30px;
+    margin-left: 320px;
+}
+
+
+.rotateKey button{
+
+    float: left; 
+    /* display: inline-block;     */
+    width: 60px;
+    height: 20px;
+    size: 12px;
+    /* margin-top: 20px; */
+    margin-right: 10px;
+}
